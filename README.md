@@ -1,3 +1,5 @@
+![PHP Composer](https://github.com/quentingosset/laravel-config-writer/workflows/PHP%20Composer/badge.svg)
+
 # Laravel Config Writer
 
 Write to Laravel Config files and maintain file integrity.
