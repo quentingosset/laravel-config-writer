@@ -36,6 +36,5 @@
     "scripts": {
         "test": "./vendor/bin/phpunit --bootstrap=./vendor/autoload.php --colors=\"always\" UnitTest tests/*"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
