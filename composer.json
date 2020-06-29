@@ -1,0 +1,41 @@
+{
+    "name": "quentingosset/laravel-config-writer",
+    "description": "Laravel provider to be able to rewrite configuration",
+    "keywords": [
+        "laravel",
+        "config",
+        "write",
+        "provider"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "quentingosset",
+            "email": "quentingosset7500@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/config": "^7.0."
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quentingosset\\Laravel\\ConfigWriter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quentingosset\\Laravel\\ConfigWriter\\LaravelServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --bootstrap=./vendor/autoload.php --colors=\"always\" UnitTest tests/*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
